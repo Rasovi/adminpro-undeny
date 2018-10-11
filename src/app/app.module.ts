@@ -10,6 +10,11 @@ import { RegisterComponent } from './login/register.component';
 // Modulos propios
 import { PagesModule } from './pages/pages.module';
 
+// Para usar el ngModel
+import { FormsModule } from '@angular/forms';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +24,9 @@ import { PagesModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
