@@ -12,6 +12,7 @@ import { PagesModule } from './pages/pages.module';
 
 // Para usar el ngModel
 import { FormsModule } from '@angular/forms';
+import { ServiceModule } from './services/service.module';
 
 
 
@@ -26,7 +27,7 @@ import { FormsModule } from '@angular/forms';
     APP_ROUTES,
     PagesModule,
     FormsModule,
-    
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
